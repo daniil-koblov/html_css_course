@@ -4,19 +4,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="../task_1/index.html">Главная</a>
-    <a href="../task_1/info/about.html">Обо мне</a>
-    <a href="../task_1/tiket.html">Оставить заявку</a>
-    <h1>Оставить заявку</h1>
+    <a class="menu_links" href="../task_1/index.html">Главная</a>
+    <a class="menu_links" href="../task_1/info/about.html">Обо мне</a>
+    <a class="menu_links" href="../task_1/tiket.html">Оставить заявку</a>
+    <h1 class="title">Оставить заявку</h1>
 
-    <form action="#" method="post">
+    <form class="form" action="#" method="post">
 
-        <span>Ваше имя: </span><input placeholder="Введите ваше имя" type="text" name="name" id="name"><br>
-        Email <input placeholder="Введите ваш email" type="email" name="email" id="email"><br>
-        <button type="submit">Отправить</button>
-        <button type="reset">Стереть форму</button>
+        <span>Ваше имя: </span><input class="input" placeholder="Введите ваше имя" type="text" name="name" id="name"><br>
+        <span>Ваш email: </span> <input class="input" placeholder="Введите ваш email" type="email" name="email" id="email"><br>
+        <button class="btn" type="submit">Отправить</button>
+        <button class="btn" type="reset">Стереть</button>
     </form>
 </body>
 </html>
